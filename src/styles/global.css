@@ -7,8 +7,9 @@ h1{
 }
 
 .lb{
-    width: 155px;
+    width: 113px;
     display: inline-block;
+    margin-left: -21px;
 }
 
 .centerImage{
@@ -31,4 +32,13 @@ h1{
 
 .obbliquo{
     font-style: italic;
+}
+
+.bg-green{
+    --bg-opacity: 1;
+    background-color: hsl(108, 73%, 57%);
+}
+
+.fontSize{
+    font-size: 1.5rem;
 }

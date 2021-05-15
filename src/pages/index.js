@@ -42,57 +42,63 @@ const Index = () => (
           <p className="text-xl lg:text-2xl mt-6 font-light">
             <img src={iconVideo} alt="video" className="centerImage" />
           </p>
-          <p className="mt-4">
+          <p className="mt-4 fontSize">
             <img className="quotes" src={quoteOpen} /> 
-            La vita è troppo breve per sprecarla a realizzare i sogni degli altri.
+              La vita è troppo breve per sprecarla a realizzare i sogni degli altri.  
             <img className="quotes" src={quoteClose} />
           </p>
-          <p className="mt-4">
-             <span className="obbliquo"> - Oscar Wilde </span>
+          <p className="mt-4 fontSize">
+             <span className="obbliquo"> Oscar Wilde </span>
           </p>
+          <p className="mt-4"> </p>
+          <p className="mt-4"></p>
         </div>
       </div>
     </section>
 
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
-      <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
-        <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
-          <div className="flex-1 px-3">
-            <Card className="mb-8 cardShadow">
-              <p className="font-semibold text-xl">Intrappolato in una vita che non è più la tua.</p>
-              <p className="mt-4">
-                Ecco come si sente il 97% degli italiani appena alzato dal letto.
-                Apri il telefono, scrolli le notifiche dei social e desideri ardentemente vivere la vita da sogno di un altro.
-                L’amore, la famiglia, i viaggi, le esperienze, le auto, le case…
-                Osservi tutto quello che vorresti e ti convinci che tu NON puoi.
-                Perché tuttI ti hanno fatto credere che è così, che vivere una vita monotona e infelice è la normalità.
-              </p>
-            </Card>
+    <div className="sfondoBlue text-white">
+      <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl lg:text-5xl font-semibold"></h2>
+          <div className="">
+            <div className="">
+              <Card className="mb-8">
+                <p className="font-semibold text-xl">Intrappolato in una vita che non è più la tua.</p>
+                <p className="mt-4">
+                  Ecco come si sente il 97% degli italiani appena alzato dal letto.
+                  Apri il telefono, scrolli le notifiche dei social e desideri ardentemente vivere la vita da sogno di un altro.
+                  L’amore, la famiglia, i viaggi, le esperienze, le auto, le case…
+                  Osservi tutto quello che vorresti e ti convinci che tu NON puoi.
+                  Perché tuttI ti hanno fatto credere che è così, che vivere una vita monotona e infelice è la normalità.
+                </p>
+              </Card>
+            </div>
+            <div className="">
+              <Card className="mb-8 ">
+                <p className="font-semibold text-xl">Accontentarsi è la normalità!</p>
+                <p className="mt-4">
+                  Ma allora perché dentro di te senti questo stimolo inspiegabile a voler crescere e migliorare?
+                  Forse perché tu non sei come loro!
+                </p>
+              </Card>
+            </div>
+            <div className="">
+              <Card className="mb-8 ">
+                <p className="font-semibold text-xl">Tu PUOI prendere in mano la tua vita e realizzare tutto ciò che vuoi.</p>
+                <p className="mt-4">
+                  Vuoi sapere come fare?
+                </p>
+              </Card>
+            </div>
           </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8 cardShadow">
-              <p className="font-semibold text-xl">Accontentarsi è la normalità!</p>
-              <p className="mt-4">
-                Ma allora perché dentro di te senti questo stimolo inspiegabile a voler crescere e migliorare?
-                Forse perché tu non sei come loro!
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8 cardShadow">
-              <p className="font-semibold text-xl">Tu PUOI prendere in mano la tua vita e realizzare tutto ciò che vuoi.</p>
-              <p className="mt-4">
-                Vuoi sapere come fare?
-              </p>
-            </Card>
-          </div>
+          <p className="mt-8 md:mt-12 text-white">
+              <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
+          </p>
         </div>
-        <p className="mt-8 md:mt-12 text-white">
-            <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
-        </p>
-      </div>
-    </section>
+      </section>
+    </div>
+
+ 
     
     <SplitSection
       id="services"
@@ -101,7 +107,7 @@ const Index = () => (
           <h3 className="text-3xl font-semibold leading-tight">Passa all’azione!</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Scopri come trasformare i tuoi sogni in obiettivi concreti e quali azioni dovrai compiere per raggiungerli</p>
-            <p className="mt-8 text-xl font-light leading-relaxed">✓ Conquista la tua realizzazione personale.</p>
+            <p className="mt-8 text-xl font-light leading-relaxed">✔ Conquista la tua realizzazione personale.</p>
             <p className="mt-8 text-xl font-light leading-relaxed">✔ Migliora le tue relazioni.</p>
             <p className="mt-8 text-xl font-light leading-relaxed">✔ Raggiungi i tuoi obiettivi.</p>
             <p className="mt-8 text-xl font-light leading-relaxed">✔ Ricevi ora 30 minuti di consulenza completamente gratis.</p>
@@ -159,96 +165,66 @@ const Index = () => (
       </div>
     </section>*/}
 
-<div className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center sfondoBlue">
-    <SplitSection
-      id="services"
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-5xl font-semibold">Ancora non l’hai fatto?</h3>
-          <p className="mt-8 text-xl font-light">Sbrigati, il tuo futuro dipende da te.</p>
-          <p className="mt-8 text-xl font-light">Inizia ora a realizzare i tuoi obiettivi.0</p>
-          <p className="mt-8 md:mt-12 text-white">
-            <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
-          </p>
-        </div>
-      }
-      secondarySlot={
-        <form >
-        <p className="mt-8 text-xl font-light"><label>
-           <span className="lb">Nome</span>
-            <input
-              type="text"
-              name="firstName"
-            />
-          </label>
-        </p>
-        <p className="mt-8 text-xl font-light"><label>
-        <span className="lb">Cognome</span>
-            <input
-              type="text"
-              name="lastName"
-            />
-          </label>
-        </p>
-        <p className="mt-8 text-xl font-light"><label>
-        <span className="lb">Telefono</span>
-            <input
-              type="text"
-              name="lastName"
-            />
-          </label>
-        </p>
+    <div className="sfondoBlue text-white">
+      <div className="container mx-auto my-20 py-24 rounded-lg text-center ">
+        <SplitSection
+          id="services"
+          primarySlot={
+            <div className="lg:pr-32 xl:pr-48">
+              <h3 className="text-5xl font-semibold">Ancora non l’hai fatto?</h3>
+              <p className="mt-8 text-xl font-light">Sbrigati, il tuo futuro dipende da te.</p>
+              <p className="mt-8 text-xl font-light">Inizia ora a realizzare i tuoi obiettivi.</p>
+            </div>
+          }
+          secondarySlot={
+            <form >
+            <p className="mt-8 text-xl font-light"><label>
+              <span className="lb">Nome</span>
+                <input
+                  type="text"
+                  name="firstName"
+                />
+              </label>
+            </p>
+            <p className="mt-8 text-xl font-light"><label>
+            <span className="lb">Cognome</span>
+                <input
+                  type="text"
+                  name="lastName"
+                />
+              </label>
+            </p>
+            <p className="mt-8 text-xl font-light"><label>
+            <span className="lb">Telefono</span>
+                <input
+                  type="text"
+                  name="lastName"
+                />
+              </label>
+            </p>
 
-        <p className="mt-8 text-xl font-light"><label>
-        <span className="lb">Email</span>
-            <input
-              type="text"
-              name="lastName"
-            />
-          </label>
-        </p>
-        </form>
+            <p className="mt-8 text-xl font-light"><label>
+            <span className="lb">Email</span>
+                <input
+                  type="text"
+                  name="lastName"
+                />
+              </label>
+            </p>
 
-      }
-    />
-</div>
+            <p className="mt-8 md:mt-12 text-white">
+              <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
+            </p>
 
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+            </form>
 
-    </section>
+          }
+        />
+      </div>
+    </div>
 
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
 
-      <form >
-        <p className="mt-8 text-xl font-light"><label>
-           <span className="lb">Nome</span>
-            <input
-              type="text"
-              name="firstName"
-            />
-          </label>
-        </p>
-        <p className="mt-8 text-xl font-light"><label>
-        <span className="lb">Cognome</span>
-            <input
-              type="text"
-              name="lastName"
-            />
-          </label>
-        </p>
-        <p className="mt-8 text-xl font-light"><label>
-        <span className="lb">Email</span>
-            <input
-              type="text"
-              name="lastName"
-            />
-          </label>
-        </p>
-        <p className="mt-8 text-xl font-light">
-          <Button size="lg">Submit</Button>
-        </p>
-      </form>
-    </section>
+
   </Layout>
 );
 
