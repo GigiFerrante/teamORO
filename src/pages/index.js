@@ -14,14 +14,14 @@ import quoteOpen from '../images/quoteOpen.png';
 
 const Index = () => (
   <Layout>
-    <section className="pt-20 md:pt-40 firstSection">
+    <section className="pt-20 md:pt-30 pb-24 firstSection">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-3xl xl:text-3xl font-bold leading-none">
+          <p className="text-4xl lg:text-3xl xl:text-3xl font-bold">
+          Scopri come trasformare i tuoi sogni in obiettivi concreti e quali azioni dovrai compiere per raggiungerli</p>
+          <h1 className="text-xl lg:text-2xl font-light mt-6 font-bold text-white">
           IL 97% DELLE PERSONE OGGI IN ITALIA È INSODDISFATTA, E TU? COSA FARESTI SE SAPESSI DI NON POTER FALLIRE?
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light text-white">
-          Scopri come trasformare i tuoi sogni in obiettivi concreti e quali azioni dovrai compiere per raggiungerli</p>
           <p className="mt-8 md:mt-12 text-white">
             <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
           </p>
