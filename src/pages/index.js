@@ -20,7 +20,7 @@ const Index = () => (
           <p className="text-4xl lg:text-3xl xl:text-3xl font-bold">
           Scopri come trasformare i tuoi sogni in obiettivi concreti e quali azioni dovrai compiere per raggiungerli</p>
           <h1 className="text-xl lg:text-2xl font-light mt-6 font-bold text-white">
-          IL 97% DELLE PERSONE OGGI IN ITALIA È INSODDISFATTA, E TU? COSA FARESTI SE SAPESSI DI NON POTER FALLIRE?
+          IL 97% DELLE PERSONE OGGI IN ITALIA È INSODDISFATTO, E TU? COSA FARESTI SE SAPESSI DI NON POTER FALLIRE?
           </h1>
           <p className="mt-8 md:mt-12 text-white">
             <Button size="lg">RICEVI ORA LA TUA CONSULENZA GRATIS</Button>
